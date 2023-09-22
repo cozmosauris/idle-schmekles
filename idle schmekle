@@ -1,0 +1,91 @@
+game_run = True 
+while game_run == True:
+
+    schmekles = 0
+    noc = 0
+    add = noc + 1  
+    first_upgrade = 100
+    first_upgrade_output = 1
+    fu_add = 10
+    second_upgrade = 1000
+    second_upgrade_output = 1
+    su_add = 500
+    third_upgrade = 10000
+    third_upgrade_output = 1
+    tu_add = 2000
+    first_prestige = 8
+    first_prestige_output = 1
+    game_run = True 
+    while game_run == True:
+        
+        s_o = input("type c to get more schmekles or e to restart ")
+
+        if s_o =="1":
+            if schmekles == schmekles> (first_upgrade):
+                output = noc = noc - noc
+                output = schmekles = schmekles - first_upgrade
+                output = fu_add = fu_add + 10
+                output = first_upgrade = first_upgrade + fu_add
+                output = first_upgrade_output = first_upgrade_output + 1 * first_prestige_output
+            else:
+                output = print("you dont have enough schmekles for that")
+        
+        if s_o =="2":
+            if schmekles == schmekles> (second_upgrade):
+                output = noc = noc - noc
+                output = schmekles = schmekles - second_upgrade
+                output = su_add = su_add + 500
+                output = second_upgrade = second_upgrade + su_add
+                output = second_upgrade_output = second_upgrade_output + 0.5 * first_prestige_output
+
+            else:
+                output = print("you dont have enough schmekles for that")
+
+        if s_o =="3":
+            if schmekles == schmekles> (third_upgrade):
+                output = noc = noc - noc
+                output = schmekles = schmekles - third_upgrade
+                output = tu_add = tu_add + 2000
+                output = third_upgrade = third_upgrade + tu_add
+                output = third_upgrade_output = third_upgrade_output + 0.5 * first_prestige_output
+                output = second_upgrade = 1000
+                output = second_upgrade_upgrade_output = 1
+            else:
+                output = print("you dont have enough schmekles for that")
+
+        
+        if s_o == "c":
+            output = schmekles = schmekles + add
+
+        if s_o == "c":
+            output = noc = noc + second_upgrade_output * third_upgrade_output
+
+        if s_o == "c":
+            output = add = + noc + first_upgrade_output         
+   
+        if s_o == "e":
+            output = game_run = False
+
+        if schmekles == 1:
+            output = t_schmekle = "schmekle"
+        else:
+            output = t_schmekle = "schmekles"
+        
+        
+
+
+    
+        print ("you have " + str(schmekles) + " " + t_schmekle)
+        
+        if schmekles == schmekles > (first_upgrade):
+            print ("type 1 to gain schmekles faster")
+
+        if schmekles == schmekles > (second_upgrade):
+            print ("type 2 to gain schmekles even faster")
+
+        if schmekles == schmekles > (third_upgrade):
+            print ("type 3 to gain schmekles even even faster")
+
+
+
+print ("game over you earnt " + str(schmekles) + " "+ t_schmekle)
